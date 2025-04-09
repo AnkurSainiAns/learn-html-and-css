@@ -9,7 +9,8 @@
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
 }
-.second{
+
+.second {
     width: 50%;
     display: block;
     text-align: center;
@@ -24,7 +25,8 @@
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
 }
-button{
+
+button {
 
     background-color: white;
     color: black;
@@ -37,36 +39,30 @@ button{
     padding: 5px;
     border-radius: 20px;
     box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
+
+}
+
+.d {
+    display: flex;
+    justify-content: space-around;
     
 }
-.d{
+
+
+
+.sty1 {
     display: flex;
-    justify-content: center;
-    padding: 50px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+    border: 2px solid black;
 }
-.had{
-    background-color: lightgreen;
-    color: darkgreen;
-    font-size: 18px;
-    border: 2px solid green;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.5);
-    display: flex;
-    justify-content: center;
-    font-weight: lighter;
-    font-style: italic;
-    text-align: center;
+body{
+    background-image: url(Space\ Solar\ System\ GIF\ by\ NASA.webp);
+    ;
+    color: white;
+    ;
+    
 }
-.nav{
-    padding: 10px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
+.web{
+    background-color: none;
+    color: rgb(67, 9, 9);
+    border-bottom: 5px solid black;
 }
