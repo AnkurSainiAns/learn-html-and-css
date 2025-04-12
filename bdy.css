@@ -1,0 +1,18 @@
+.had {
+    text-align: center;
+    text-shadow: 0px 0px 1px black;
+    color: tomato;
+}
+
+.imag {
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 50% 0 50%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

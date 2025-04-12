@@ -55,8 +55,8 @@ button {
     border: 2px solid black;
 }
 body{
-    background-image: url(Space\ Solar\ System\ GIF\ by\ NASA.webp);
-    ;
+    /* background-image: url(Space\ Solar\ System\ GIF\ by\ NASA.webp); */
+    
     color: white;
     ;
     
@@ -66,3 +66,12 @@ body{
     color: rgb(67, 9, 9);
     border-bottom: 5px solid black;
 }
+.blur{
+    text-align: center;
+    text-shadow: 0px 0px 5px rgb(0, 0, 0);
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    padding: 10px;
+    border: 1px solid gray;
+    }
