@@ -16,3 +16,31 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.xyz{
+    display: flex;
+    justify-self: center;
+    align-self: center;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid black;
+    background-image: url("https://img.freepik.com/free-photo/3d-illustration-closed-black-gift-box_107791-18203.jpg");
+    background-size: cover;
+}
+.xyz:active{
+    background-image: url("4.png");
+    background-size: cover;
+    cursor: pointer;
+}
+p{
+    text-align: center;
+    font-size: 18px;
+}
